@@ -108,7 +108,7 @@ int main(int argc, char** argv)
     std::string filename = "default";
     std::string outdir = "default";
     std::string parameterFile;
-    bool enableTimeSuffix = true;
+    bool enableTimeSuffix = false;
     int seedOffset = 0;
 
     app.add_option("-i,--inputdir", inputFilePath, "The directory where the input file -f resides")->required();

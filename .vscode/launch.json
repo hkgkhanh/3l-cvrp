@@ -1,20 +1,27 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
-            "type": "lldb",
+            "name": "Run 3L-CVRP (MinGW GDB)",
+            "type": "cppdbg",
             "request": "launch",
-            "name": "Debug (lldb)",
             "program": "${command:cmake.launchTargetPath}",
             "args": [
                 "-i",
                 "${workspaceFolder}/data/input/3l-cvrp/",
                 "-f",
-                "E023-03g.json",
+                "E016-03m.json",
                 "-o",
-                "${workspaceFolder}/data/output/3l-cvrp/test/",
+                "${workspaceFolder}/my-runs/output/",
                 "-p",
                 "${workspaceFolder}/data/input/3l-cvrp/parameters/BenchmarkParameters_AllConstraints.json"
-            ]
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
         }
     ]
 }

@@ -1,0 +1,41 @@
+
+Gurobi 12.0.3 (win64, C++) logging started Sun Nov  2 10:08:02 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2729942
+Set parameter Threads to value 8
+Set parameter LazyConstraints to value 1
+Set parameter PreCrush to value 1
+Set parameter Seed to value 0
+Set parameter Cuts to value -1
+Set parameter TimeLimit to value 300
+Set parameter NumericFocus to value 0
+Set parameter SolutionLimit to value 10000
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+SolutionLimit  10000
+TimeLimit  300
+PreCrush  1
+Threads  8
+LazyConstraints  1
+
+
+User-callback calls 13, time in user-callback 0.00 sec
+### START EXACT APPROACH ###
+ProblemVariant: 1
+### START PREPROCESSING ###
+## Start infeasible path procedure ## 
+Deleted arcs: 15
+Infeasible tail paths: 39
+Infeasible 2-node combinations: 7
+## Start extended infeasible path procedure ##
+Deleted arcs: 15
+Infeasible tail paths: 39
+Infeasible 2-node combinations: 7
+## Start start solution procedure ##
+Start solution with 10 Vehicles and total costs 1227.11 in 40.2369 s.
+### END PREPROCESSING ###

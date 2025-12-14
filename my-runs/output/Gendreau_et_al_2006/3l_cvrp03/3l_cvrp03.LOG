@@ -1,0 +1,151 @@
+
+Gurobi 12.0.3 (win64, C++) logging started Sat Nov  1 23:04:39 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2729942
+Set parameter Threads to value 8
+Set parameter LazyConstraints to value 1
+Set parameter PreCrush to value 1
+Set parameter Seed to value 0
+Set parameter Cuts to value -1
+Set parameter TimeLimit to value 300
+Set parameter NumericFocus to value 0
+Set parameter SolutionLimit to value 10000
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+SolutionLimit  10000
+TimeLimit  300
+PreCrush  1
+Threads  8
+LazyConstraints  1
+
+Optimize a model with 232 rows, 441 columns and 1260 nonzeros
+Model fingerprint: 0xaa15a64c
+Variable types: 0 continuous, 441 integer (441 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+00, 6e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+
+User MIP start produced solution with objective 433.142 (0.00s)
+Loaded user MIP start with objective 433.142
+
+Presolve removed 2 rows and 23 columns
+Presolve time: 0.00s
+Presolved: 230 rows, 418 columns, 1194 nonzeros
+Variable types: 0 continuous, 418 integer (418 binary)
+
+Root relaxation: objective 2.923362e+02, 67 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  292.33623    0    -  433.14167  292.33623  32.5%     -    0s
+     0     0  307.94455    0    -  433.14167  307.94455  28.9%     -    0s
+     0     0  319.25762    0    -  433.14167  319.25762  26.3%     -    0s
+     0     0  320.93098    0    -  433.14167  320.93098  25.9%     -    0s
+     0     0  321.37940    0   32  433.14167  321.37940  25.8%     -    0s
+     0     0  335.72328    0   24  433.14167  335.72328  22.5%     -    0s
+     0     0  342.47076    0    -  433.14167  342.47076  20.9%     -    0s
+     0     0  342.53775    0   36  433.14167  342.53775  20.9%     -    0s
+     0     0  347.34415    0   45  433.14167  347.34415  19.8%     -    0s
+     0     0  348.38886    0   39  433.14167  348.38886  19.6%     -    0s
+     0     0  349.28253    0   48  433.14167  349.28253  19.4%     -    0s
+     0     0  349.85126    0   50  433.14167  349.85126  19.2%     -    0s
+     0     0  349.90006    0   62  433.14167  349.90006  19.2%     -    1s
+     0     0  349.90006    0   42  433.14167  349.90006  19.2%     -    2s
+     0     2  349.90006    0   46  433.14167  349.90006  19.2%     -    5s
+     8    14  356.99645    3   55  433.14167  349.90772  19.2%  27.0   11s
+    63    92  352.47175    8   52  433.14167  349.96132  19.2%  17.5   15s
+   143   171  356.26254   16   54  433.14167  349.96132  19.2%  17.1   20s
+   223   252  359.08329   25   17  433.14167  349.96132  19.2%  15.2   25s
+   303   341  362.83175   37   49  433.14167  349.96132  19.2%  14.2   30s
+   447   478  369.29194   53   46  433.14167  349.96132  19.2%  12.2   37s
+   655   648  427.38506   70   10  433.14167  349.96132  19.2%  11.8   42s
+   787   785  357.64350   11   25  433.14167  349.96132  19.2%  11.1   48s
+  1093  1108  372.95487   18   45  433.14167  350.70604  19.0%  11.2   51s
+  1497  1405  419.26121   57   18  433.14167  350.70604  19.0%  10.1   56s
+  1897  1592  382.68180   62   42  433.14167  350.70604  19.0%   9.6   65s
+  1923  1609  367.20769   16   66  433.14167  352.66370  18.6%   9.5   70s
+  2037  1699  362.03122   24   29  433.14167  353.88660  18.3%  11.0   77s
+  2103  1742  365.22766   27   18  433.14167  353.88660  18.3%  11.4   83s
+  2122  1773  365.99882   28   16  433.14167  353.88660  18.3%  11.5   85s
+  2409  1949  406.94881   43   20  433.14167  354.24002  18.2%  12.1   94s
+  2483  1989  400.59954   46   32  433.14167  354.24002  18.2%  12.2   96s
+  2576  2023  417.78165   50   25  433.14167  354.25889  18.2%  12.2  100s
+  2759  2116 infeasible   61       433.14167  354.92662  18.1%  12.5  105s
+  2885  2101  363.69581   24   28  433.14167  354.92662  18.1%  12.5  110s
+  2966  2212  365.79469   33   30  433.14167  354.92662  18.1%  12.6  115s
+  3216  2224 infeasible   47       433.14167  355.65977  17.9%  12.5  123s
+  3250  2357  361.72833   20   46  433.14167  355.81086  17.9%  12.5  127s
+  3503  2459  408.54606   53    -  433.14167  355.88909  17.8%  12.3  130s
+  3837  2587  373.56175   28   49  433.14167  355.88909  17.8%  12.3  138s
+  3962  2641  389.21356   42    4  433.14167  355.88909  17.8%  12.4  143s
+  4095  2707  396.36505   58   22  433.14167  355.88909  17.8%  12.4  151s
+  4212  2794  404.91251   65   29  433.14167  355.88909  17.8%  12.4  155s
+  4357  2786  362.75218   23   48  433.14167  355.88909  17.8%  12.3  163s
+  4528  2966  392.42254   28   36  433.14167  355.88909  17.8%  12.4  170s
+  4850  3095  408.51872   41   20  433.14167  355.88909  17.8%  12.2  175s
+  5110  3245  368.53161   25   53  433.14167  359.31174  17.0%  12.2  186s
+H 5190  2283                     395.3337369  359.31174  9.11%  12.1  187s
+  5658  2515  368.80391   19   41  395.33374  359.31174  9.11%  12.2  190s
+  6054  2538  381.13627   37   38  395.33374  359.31174  9.11%  12.3  196s
+  6531  2793  389.61178   62   32  395.33374  360.33835  8.85%  12.2  201s
+  7112  3184  385.59657   52   48  395.33374  361.22211  8.63%  12.1  205s
+  7574  3464  379.61550   27   46  395.33374  361.57138  8.54%  12.1  210s
+  7800  3671  380.18638   32   30  395.33374  361.99352  8.43%  12.1  216s
+  8365  3924  394.43569   35   23  395.33374  362.17994  8.39%  12.1  220s
+  9136  4513  394.28330   38   24  395.33374  362.52131  8.30%  12.2  225s
+ 10213  5167  382.05890   36   24  395.33374  363.12288  8.15%  12.5  231s
+ 10755  5457     cutoff   32       395.33374  363.27517  8.11%  12.5  238s
+ 11036  5474  388.05448   39   40  395.33374  363.41213  8.07%  12.6  240s
+ 11292  5732     cutoff   36       395.33374  363.59960  8.03%  12.6  254s
+ 11577  6014     cutoff   51       395.33374  363.61979  8.02%  12.7  259s
+ 12313  6362  382.96461   27   32  395.33374  363.94174  7.94%  12.7  266s
+H12622  6210                     393.6513932  364.07128  7.51%  12.7  268s
+ 13043  6548     cutoff   41       393.65139  364.19599  7.48%  12.8  272s
+ 13245  6775  375.52989   27   38  393.65139  364.42085  7.43%  12.8  279s
+ 13619  7027  368.87533   27   30  393.65139  364.53325  7.40%  12.8  290s
+ 13773  7033  369.42207   34   55  393.65139  364.53325  7.40%  12.8  295s
+
+Cutting planes:
+  User: 641
+  Gomory: 16
+  Cover: 4
+  MIR: 1
+  Flow cover: 5
+  Zero half: 16
+  Lazy constraints: 970
+
+Explored 14655 nodes (189599 simplex iterations) in 301.14 seconds (6.44 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 393.651 395.334 433.142 
+
+Time limit reached
+Best objective 3.936513932069e+02, best bound 3.648803359125e+02, gap 7.3088%
+
+User-callback calls 31223, time in user-callback 289.97 sec
+### START EXACT APPROACH ###
+ProblemVariant: 1
+### START PREPROCESSING ###
+## Start infeasible path procedure ## 
+Deleted arcs: 2
+Infeasible tail paths: 0
+Infeasible 2-node combinations: 1
+## Start extended infeasible path procedure ##
+Deleted arcs: 2
+Infeasible tail paths: 0
+Infeasible 2-node combinations: 1
+## Start start solution procedure ##
+Start solution with 4 Vehicles and total costs 433.142 in 9.84643 s.
+### END PREPROCESSING ###
+Route 0 0-2-7-9-5-20-6-0 : weight util 1.000000 | volume util 0.535778 | feasible with packing heuristic | feasible with CP model
+Route 1 0-4-15-14-16-17-0 : weight util 0.952941 | volume util 0.598600 | feasible with packing heuristic | feasible with CP model
+Route 2 0-12-18-10-19-11-1-0 : weight util 0.976471 | volume util 0.667022 | feasible with packing heuristic | feasible with CP model
+Route 3 0-13-3-8-0 : weight util 0.941176 | volume util 0.439333 | feasible with packing heuristic | feasible with CP model

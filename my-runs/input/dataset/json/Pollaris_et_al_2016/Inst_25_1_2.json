@@ -1,0 +1,614 @@
+{
+    "Name": "Inst_25_1_2",
+    "Vehicles": [
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        },
+        {
+            "Capacity": 32200,
+            "Length": 912,
+            "Width": 244,
+            "Height": 244
+        }
+    ],
+    "Nodes": [
+        {
+            "ID": 0,
+            "X": 0.032393702166529106,
+            "Y": -0.27550248586674114,
+            "Demand": 0.0,
+            "Items": []
+        },
+        {
+            "ID": 1,
+            "X": -2.1867249180231165,
+            "Y": 1.9775253492270535,
+            "Demand": 8658.0,
+            "Items": [
+                {
+                    "Quantity": 6,
+                    "Weight": 1443.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "X": -4.893516385338578,
+            "Y": -1.1325760296432623,
+            "Demand": 10066.0,
+            "Items": [
+                {
+                    "Quantity": 7,
+                    "Weight": 1438.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "X": -3.060604566996946,
+            "Y": 4.667428007217882,
+            "Demand": 8561.0,
+            "Items": [
+                {
+                    "Quantity": 7,
+                    "Weight": 1223.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "X": -3.0776755511782006,
+            "Y": 2.431477376363815,
+            "Demand": 5076.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1269.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 5,
+            "X": -3.5487538736806767,
+            "Y": -0.6953695265084244,
+            "Demand": 7777.0,
+            "Items": [
+                {
+                    "Quantity": 7,
+                    "Weight": 1111.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "X": 3.579246083853003,
+            "Y": -4.3273390873711195,
+            "Demand": 8514.0,
+            "Items": [
+                {
+                    "Quantity": 6,
+                    "Weight": 1419.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 7,
+            "X": 0.4862870149204253,
+            "Y": 0.6155489779707788,
+            "Demand": 6450.0,
+            "Items": [
+                {
+                    "Quantity": 5,
+                    "Weight": 1290.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 8,
+            "X": 2.3021780841888044,
+            "Y": 4.179422733385193,
+            "Demand": 5936.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1484.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 9,
+            "X": 2.722343962171446,
+            "Y": 0.5985937093990277,
+            "Demand": 8766.0,
+            "Items": [
+                {
+                    "Quantity": 6,
+                    "Weight": 1461.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 10,
+            "X": 3.6304130897509475,
+            "Y": 2.380479790195736,
+            "Demand": 5175.0,
+            "Items": [
+                {
+                    "Quantity": 5,
+                    "Weight": 1035.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 11,
+            "X": -5.801957879214904,
+            "Y": -2.9144895267552147,
+            "Demand": 5764.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1441.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 12,
+            "X": -3.111761260265937,
+            "Y": -2.0403287418917024,
+            "Demand": 8932.0,
+            "Items": [
+                {
+                    "Quantity": 7,
+                    "Weight": 1276.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 13,
+            "X": 0.4862870149204254,
+            "Y": 0.6155489779707789,
+            "Demand": 5380.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1345.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 14,
+            "X": 1.8482928746194662,
+            "Y": 3.288525242990181,
+            "Demand": 7866.0,
+            "Items": [
+                {
+                    "Quantity": 6,
+                    "Weight": 1311.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 15,
+            "X": 2.2682267265689,
+            "Y": -0.2925166123525113,
+            "Demand": 7836.0,
+            "Items": [
+                {
+                    "Quantity": 6,
+                    "Weight": 1306.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 16,
+            "X": -3.111761260265936,
+            "Y": -2.040328741891702,
+            "Demand": 4840.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1210.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 17,
+            "X": 5.412461803516013,
+            "Y": 1.4728423843744087,
+            "Demand": 8540.0,
+            "Items": [
+                {
+                    "Quantity": 7,
+                    "Weight": 1220.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 18,
+            "X": 0.9061728730561647,
+            "Y": -2.9654637785320683,
+            "Demand": 5560.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1390.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 19,
+            "X": -1.7495805644742393,
+            "Y": 0.6324910398053192,
+            "Demand": 4860.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1215.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 20,
+            "X": 4.958276257552783,
+            "Y": 0.581502990802214,
+            "Demand": 4436.0,
+            "Items": [
+                {
+                    "Quantity": 4,
+                    "Weight": 1109.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 21,
+            "X": 0.8893701126509282,
+            "Y": -5.201485795883528,
+            "Demand": 6702.0,
+            "Items": [
+                {
+                    "Quantity": 6,
+                    "Weight": 1117.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 22,
+            "X": -3.0605973485561386,
+            "Y": 4.667482215502054,
+            "Demand": 9016.0,
+            "Items": [
+                {
+                    "Quantity": 7,
+                    "Weight": 1288.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 23,
+            "X": 0.015325296640685339,
+            "Y": -2.5115083661533597,
+            "Demand": 5805.0,
+            "Items": [
+                {
+                    "Quantity": 5,
+                    "Weight": 1161.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 24,
+            "X": 0.9233228103104671,
+            "Y": -0.7294390787060617,
+            "Demand": 9359.0,
+            "Items": [
+                {
+                    "Quantity": 7,
+                    "Weight": 1337.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        },
+        {
+            "ID": 25,
+            "X": 3.1423359011076877,
+            "Y": -2.9825210236487454,
+            "Demand": 7926.0,
+            "Items": [
+                {
+                    "Quantity": 6,
+                    "Weight": 1321.0,
+                    "Length": 80,
+                    "Width": 120,
+                    "Height": 244,
+                    "Fragility": "None",
+                    "EnableHorizontalRotation": true,
+                    "Rotated": "None"
+                }
+            ]
+        }
+    ]
+}

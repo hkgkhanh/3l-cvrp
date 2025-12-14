@@ -8,7 +8,7 @@
         "CutSeparationStartNodes": 200,
         "CutSeparationThreshold": 100,
         "EnableMinVehicleLifting": true,
-        "SimpleVersion": false,										 
+        "SimpleVersion": false,
         "IntraRouteFullEnumThreshold": 6,
         "MinVehicleLiftingThreshold": 0.5,
         "SetPartHeurThreshold": 20,
@@ -84,10 +84,10 @@
         "Threads": 8,
         "TimeLimit": 28800
     },
-    "LoadingProblemParams":{
-    "ProblemVariant": "AllConstraints",
-    "SupportArea": 0.75
-  },
+    "LoadingProblemParams": {
+        "ProblemVariant": "AllConstraints",
+        "SupportArea": 0.75
+    },
     "UserCutParams": {
         "EpsForIntegrality": 0.00001,
         "MaxCutsAdd": [

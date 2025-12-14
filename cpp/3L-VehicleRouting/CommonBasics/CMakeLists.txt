@@ -51,41 +51,42 @@ message(STATUS "Headers ${_HDRS}")
 message(STATUS "Sources ${_SRCS}")
 
 # Gurobi
-find_package(GUROBI REQUIRED)
+# find_package(GUROBI REQUIRED)
 
 # OR-Tools
 # list(APPEND CMAKE_PREFIX_PATH "C:/Program Files/or-tools")
 # set(ORTOOLS_ROOT "C:/Program Files/or-tools")
 # list(APPEND CMAKE_PREFIX_PATH ${ORTOOLS_ROOT})
-find_package(ortools CONFIG REQUIRED)
+find_package(ORTOOLS CONFIG REQUIRED)
 
-if(${ortools_FOUND})
-  message(STATUS "ORTOOLS: ${ortools_FOUND}")
+if(${ORTOOLS_FOUND})
+  message(STATUS "ORTOOLS: ${ORTOOLS_FOUND}")
 endif()
 
 # Projects
 add_library(${PROJECT_NAME} INTERFACE "")
 target_sources(${PROJECT_NAME} PRIVATE ${_HDRS} ${_SRCS})
 
-message(STATUS "Gurobi include: ${GUROBI_INCLUDE_DIRS}")
-message(STATUS "Gurobi lib: ${GUROBI_LIBRARY}")
-message(STATUS "Gurobi CXX: ${GUROBI_CXX_LIBRARY}")
-message(STATUS "Gurobi CXX Debug: ${GUROBI_CXX_DEBUG_LIBRARY}")
+# message(STATUS "Gurobi include: ${GUROBI_INCLUDE_DIRS}")
+# message(STATUS "Gurobi lib: ${GUROBI_LIBRARY}")
+# message(STATUS "Gurobi CXX: ${GUROBI_CXX_LIBRARY}")
+# message(STATUS "Gurobi CXX Debug: ${GUROBI_CXX_DEBUG_LIBRARY}")
 
 target_include_directories(${PROJECT_NAME} INTERFACE
   ${PROJECT_SOURCE_DIR}/include
 
-  # $<INSTALL_INTERFACE:include>
-  ${GUROBI_INCLUDE_DIRS}
+  $<INSTALL_INTERFACE:include>
+  # ${GUROBI_INCLUDE_DIRS}
 )
 
-target_link_libraries(${PROJECT_NAME} INTERFACE ortools::ortools ${GUROBI_LIBRARY})
+# target_link_libraries(${PROJECT_NAME} INTERFACE ortools::ortools ${GUROBI_LIBRARY})
+target_link_libraries(${PROJECT_NAME} INTERFACE ortools::ortools)
 
-if(CXX)
-  # set(CMAKE_CXX_STANDARD 11)
-  target_link_libraries(${PROJECT_NAME} INTERFACE optimized ${GUROBI_CXX_LIBRARY}
-    debug ${GUROBI_CXX_LIBRARY})
-endif()
+# if(CXX)
+#   # set(CMAKE_CXX_STANDARD 11)
+#   target_link_libraries(${PROJECT_NAME} INTERFACE optimized ${GUROBI_CXX_LIBRARY}
+#     debug ${GUROBI_CXX_LIBRARY})
+# endif()
 
 if(UNIX)
   target_link_libraries(${PROJECT_NAME} INTERFACE tbb)

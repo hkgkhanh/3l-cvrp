@@ -35,16 +35,16 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 )
 
 # Gurobi
-find_package(GUROBI REQUIRED)
+# find_package(GUROBI REQUIRED)
 
-message(STATUS "Gurobi include: ${GUROBI_INCLUDE_DIRS}")
-message(STATUS "Gurobi lib: ${GUROBI_LIBRARY}")
-message(STATUS "Gurobi CXX: ${GUROBI_CXX_LIBRARY}")
-message(STATUS "Gurobi CXX Debug: ${GUROBI_CXX_DEBUG_LIBRARY}")
+# message(STATUS "Gurobi include: ${GUROBI_INCLUDE_DIRS}")
+# message(STATUS "Gurobi lib: ${GUROBI_LIBRARY}")
+# message(STATUS "Gurobi CXX: ${GUROBI_CXX_LIBRARY}")
+# message(STATUS "Gurobi CXX Debug: ${GUROBI_CXX_DEBUG_LIBRARY}")
 
-if(CXX)
-	target_link_libraries(${PROJECT_NAME} PUBLIC optimized ${GUROBI_CXX_LIBRARY}
-		debug ${GUROBI_CXX_LIBRARY})
-endif()
+# if(CXX)
+# 	target_link_libraries(${PROJECT_NAME} PUBLIC optimized ${GUROBI_CXX_LIBRARY}
+# 		debug ${GUROBI_CXX_LIBRARY})
+# endif()
 
 target_link_libraries(${PROJECT_NAME} PRIVATE VehicleRouting ContainerLoading CommonBasics)

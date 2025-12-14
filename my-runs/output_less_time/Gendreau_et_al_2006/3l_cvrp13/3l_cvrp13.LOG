@@ -1,0 +1,240 @@
+
+Gurobi 12.0.3 (win64, C++) logging started Sun Nov  2 09:19:21 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2729942
+Set parameter Threads to value 8
+Set parameter LazyConstraints to value 1
+Set parameter PreCrush to value 1
+Set parameter Seed to value 0
+Set parameter Cuts to value -1
+Set parameter TimeLimit to value 300
+Set parameter NumericFocus to value 0
+Set parameter SolutionLimit to value 10000
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+SolutionLimit  10000
+TimeLimit  300
+PreCrush  1
+Threads  8
+LazyConstraints  1
+
+Optimize a model with 569 rows, 1089 columns and 3182 nonzeros
+Model fingerprint: 0xfba8654d
+Variable types: 0 continuous, 1089 integer (1089 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 5e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 8e+00]
+
+Warning: Completing partial solution with 1013 unfixed non-continuous variables out of 1089
+User MIP start produced solution with objective 2751.68 (0.01s)
+Loaded user MIP start with objective 2751.68
+
+Presolve removed 7 rows and 37 columns
+Presolve time: 0.01s
+Presolved: 562 rows, 1052 columns, 3103 nonzeros
+Variable types: 0 continuous, 1052 integer (1052 binary)
+
+Root relaxation: objective 1.600563e+03, 99 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1600.56339    0    - 2751.68209 1600.56339  41.8%     -    0s
+     0     0 1907.28937    0   24 2751.68209 1907.28937  30.7%     -    0s
+     0     0 1917.15154    0    - 2751.68209 1917.15154  30.3%     -    0s
+     0     0 1955.44896    0    - 2751.68209 1955.44896  28.9%     -    0s
+     0     0 1978.76810    0    - 2751.68209 1978.76810  28.1%     -    4s
+     0     0 1993.93444    0   49 2751.68209 1993.93444  27.5%     -    4s
+     0     0 2033.18631    0   33 2751.68209 2033.18631  26.1%     -    4s
+     0     0 2054.67502    0   14 2751.68209 2054.67502  25.3%     -    4s
+     0     0 2063.78494    0   73 2751.68209 2063.78494  25.0%     -    4s
+     0     0 2091.86673    0    - 2751.68209 2091.86673  24.0%     -   11s
+     0     0 2092.32579    0   53 2751.68209 2092.32579  24.0%     -   11s
+     0     0 2094.61156    0   27 2751.68209 2094.61156  23.9%     -   11s
+     0     0 2109.63937    0   81 2751.68209 2109.63937  23.3%     -   21s
+     0     0 2123.18545    0   67 2751.68209 2123.18545  22.8%     -   23s
+     0     0 2126.34028    0   14 2751.68209 2126.34028  22.7%     -   24s
+     0     0 2129.99519    0   14 2751.68209 2129.99519  22.6%     -   24s
+     0     0 2130.06794    0   48 2751.68209 2130.06794  22.6%     -   24s
+     0     0 2130.14069    0   14 2751.68209 2130.14069  22.6%     -   24s
+     0     0 2130.14069    0   14 2751.68209 2130.14069  22.6%     -   30s
+     0     0 2130.14069    0   14 2751.68209 2130.14069  22.6%     -   36s
+     0     0 2130.79023    0   14 2751.68209 2130.79023  22.6%     -   38s
+     0     0 2130.79023    0   14 2751.68209 2130.79023  22.6%     -   53s
+     0     2 2131.05628    0   66 2751.68209 2131.05628  22.6%     -   63s
+    63   100 2145.62582    8   67 2751.68209 2131.60833  22.5%  23.5   68s
+   101   139 2148.02247   10   38 2751.68209 2131.60833  22.5%  22.3   70s
+   178   212 2151.56382   15   52 2751.68209 2131.60833  22.5%  22.3  101s
+   258   309 2168.82343   22   35 2751.68209 2131.60833  22.5%  21.9  113s
+   314   372 2182.37790   27   33 2751.68209 2131.60833  22.5%  20.7  123s
+   377   430 2209.36565   30   45 2751.68209 2131.60833  22.5%  19.6  140s
+   457   510 2285.23390   37    6 2751.68209 2131.60833  22.5%  18.5  147s
+Warning: Completing partial solution with 1013 unfixed non-continuous variables out of 1089
+H  475   514                    2747.5074372 2131.60833  22.4%  18.3  155s
+   622   659 2395.35812   56   30 2747.50744 2131.60833  22.4%  17.9  175s
+   703   720 2472.73382   62   10 2747.50744 2131.60833  22.4%  17.3  186s
+   781   795 2149.53491    6   66 2747.50744 2131.60833  22.4%  17.3  196s
+   872   869 2169.67109   10    - 2747.50744 2131.60833  22.4%  16.8  220s
+   941   936 2175.77381   13   46 2747.50744 2131.60833  22.4%  17.4  229s
+  1008   985 2182.18993   17   46 2747.50744 2131.60833  22.4%  17.1  233s
+  1073  1054 2165.69750   19   22 2747.50744 2131.60833  22.4%  17.2  239s
+  1143  1120 2174.53125   21   28 2747.50744 2131.60833  22.4%  16.9  260s
+  1220  1133 2172.59789   27   39 2747.50744 2131.85152  22.4%  16.9  265s
+  1237  1202 2179.92306   28   47 2747.50744 2131.85152  22.4%  17.0  289s
+
+Cutting planes:
+  User: 71
+  Cover: 1
+  MIR: 7
+  Zero half: 1
+  Relax-and-lift: 1
+  Lazy constraints: 395
+
+Explored 1300 nodes (22807 simplex iterations) in 304.60 seconds (0.84 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2747.51 2751.68 
+
+Time limit reached
+Best objective 2.747507437209e+03, best bound 2.131851519244e+03, gap 22.4078%
+
+User-callback calls 3347, time in user-callback 302.22 sec
+### START EXACT APPROACH ###
+ProblemVariant: 1
+### START PREPROCESSING ###
+## Start infeasible path procedure ## 
+Deleted arcs: 4
+Infeasible tail paths: 7
+Infeasible 2-node combinations: 2
+## Start extended infeasible path procedure ##
+Deleted arcs: 4
+Infeasible tail paths: 7
+Infeasible 2-node combinations: 2
+## Start start solution procedure ##
+Start solution with 7 Vehicles and total costs 2751.68 in 21.8435 s.
+### END PREPROCESSING ###
+Route 0 0-4-1-17-13-32-0 : weight util 0.208053 | volume util 0.672244 | feasible with packing heuristic | feasible with CP model
+Route 1 0-5-22-29-30-7-0 : weight util 0.079237 | volume util 0.619178 | feasible with packing heuristic | feasible with CP model
+Route 2 0-6-18-2-28-27-26-0 : weight util 0.917105 | volume util 0.485978 | feasible with packing heuristic | feasible with CP model
+Route 3 0-9-8-23-19-25-21-0 : weight util 0.781289 | volume util 0.581244 | feasible with packing heuristic | feasible with CP model
+Route 4 0-12-10-11-0 : weight util 0.202921 | volume util 0.578733 | feasible with packing heuristic | feasible with CP model
+Route 5 0-20-3-14-15-24-0 : weight util 0.223974 | volume util 0.606444 | feasible with packing heuristic | feasible with CP model
+Route 6 0-31-16-0 : weight util 0.181237 | volume util 0.214956 | feasible with packing heuristic | feasible with CP model
+
+Gurobi 12.0.3 (win64, C++) logging started Sun Nov  2 10:55:54 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2729942
+Set parameter Threads to value 8
+Set parameter LazyConstraints to value 1
+Set parameter PreCrush to value 1
+Set parameter Seed to value 0
+Set parameter Cuts to value -1
+Set parameter TimeLimit to value 59
+Set parameter NumericFocus to value 0
+Set parameter SolutionLimit to value 10000
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+SolutionLimit  10000
+TimeLimit  59
+PreCrush  1
+Threads  8
+LazyConstraints  1
+
+Optimize a model with 569 rows, 1089 columns and 3182 nonzeros
+Model fingerprint: 0xfba8654d
+Variable types: 0 continuous, 1089 integer (1089 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 5e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 8e+00]
+
+Warning: Completing partial solution with 1013 unfixed non-continuous variables out of 1089
+User MIP start produced solution with objective 2751.68 (0.00s)
+Loaded user MIP start with objective 2751.68
+
+Presolve removed 7 rows and 37 columns
+Presolve time: 0.01s
+Presolved: 562 rows, 1052 columns, 3103 nonzeros
+Variable types: 0 continuous, 1052 integer (1052 binary)
+
+Root relaxation: objective 1.600563e+03, 99 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1600.56339    0    - 2751.68209 1600.56339  41.8%     -    0s
+     0     0 1907.28937    0   24 2751.68209 1907.28937  30.7%     -    0s
+     0     0 1917.15154    0    - 2751.68209 1917.15154  30.3%     -    0s
+     0     0 1955.44896    0    - 2751.68209 1955.44896  28.9%     -    0s
+     0     0 1978.76810    0    - 2751.68209 1978.76810  28.1%     -    2s
+     0     0 1993.93444    0   49 2751.68209 1993.93444  27.5%     -    2s
+     0     0 2033.18631    0   33 2751.68209 2033.18631  26.1%     -    2s
+     0     0 2054.67502    0   14 2751.68209 2054.67502  25.3%     -    3s
+     0     0 2063.78494    0   73 2751.68209 2063.78494  25.0%     -    3s
+     0     0 2091.86673    0    - 2751.68209 2091.86673  24.0%     -   12s
+     0     0 2092.32579    0   58 2751.68209 2092.32579  24.0%     -   12s
+     0     0 2094.20027    0   49 2751.68209 2094.20027  23.9%     -   12s
+     0     0 2106.13163    0   78 2751.68209 2106.13163  23.5%     -   12s
+     0     0 2108.97287    0   66 2751.68209 2108.97287  23.4%     -   16s
+     0     0 2118.41704    0   73 2751.68209 2118.41704  23.0%     -   16s
+     0     0 2126.34028    0   38 2751.68209 2126.34028  22.7%     -   16s
+     0     0 2128.52576    0   63 2751.68209 2128.52576  22.6%     -   16s
+     0     0 2130.14069    0   14 2751.68209 2130.14069  22.6%     -   16s
+     0     0 2130.71505    0   78 2751.68209 2130.71505  22.6%     -   16s
+     0     0 2130.79023    0   14 2751.68209 2130.79023  22.6%     -   16s
+     0     0 2130.79023    0   14 2751.68209 2130.79023  22.6%     -   16s
+     0     2 2130.92775    0   43 2751.68209 2130.92775  22.6%     -   17s
+     7    16 2133.41608    3   54 2751.68209 2132.65633  22.5%  26.6   25s
+    63    89 2137.65207    9   41 2751.68209 2133.41608  22.5%  18.9   35s
+    96   100 2137.93996   12   53 2751.68209 2133.41608  22.5%  20.0   42s
+
+Cutting planes:
+  User: 86
+  Gomory: 4
+  MIR: 2
+  Relax-and-lift: 1
+  Lazy constraints: 98
+
+Explored 104 nodes (3050 simplex iterations) in 64.82 seconds (0.30 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2751.68 
+
+Time limit reached
+Best objective 2.751682086005e+03, best bound 2.133416075160e+03, gap 22.4687%
+
+User-callback calls 670, time in user-callback 64.12 sec
+### START EXACT APPROACH ###
+ProblemVariant: 1
+### START PREPROCESSING ###
+## Start infeasible path procedure ## 
+Deleted arcs: 4
+Infeasible tail paths: 7
+Infeasible 2-node combinations: 2
+## Start extended infeasible path procedure ##
+Deleted arcs: 4
+Infeasible tail paths: 7
+Infeasible 2-node combinations: 2
+## Start start solution procedure ##
+Start solution with 7 Vehicles and total costs 2751.68 in 20.2846 s.
+### END PREPROCESSING ###
+Route 0 0-5-22-29-30-7-0 : weight util 0.079237 | volume util 0.619178 | feasible with packing heuristic | feasible with CP model
+Route 1 0-6-18-2-28-27-26-0 : weight util 0.917105 | volume util 0.485978 | feasible with packing heuristic | feasible with CP model
+Route 2 0-9-8-23-19-25-21-0 : weight util 0.781289 | volume util 0.581244 | feasible with packing heuristic | feasible with CP model
+Route 3 0-11-10-12-0 : weight util 0.202921 | volume util 0.578733 | feasible with packing heuristic | feasible with CP model
+Route 4 0-20-3-14-15-24-0 : weight util 0.223974 | volume util 0.606444 | feasible with packing heuristic | feasible with CP model
+Route 5 0-31-4-0 : weight util 0.237211 | volume util 0.343022 | feasible with packing heuristic | feasible with CP model
+Route 6 0-32-1-17-13-16-0 : weight util 0.152079 | volume util 0.544178 | feasible with packing heuristic | feasible with CP model

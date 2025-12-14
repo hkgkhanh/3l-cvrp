@@ -1,0 +1,17 @@
+
+Gurobi 12.0.3 (win64, C++) logging started Sun Nov  2 10:12:54 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2729942
+### START EXACT APPROACH ###
+ProblemVariant: 1
+### START PREPROCESSING ###
+## Start infeasible path procedure ## 
+Deleted arcs: 15
+Infeasible tail paths: 32
+Infeasible 2-node combinations: 7
+## Start extended infeasible path procedure ##
+Deleted arcs: 15
+Infeasible tail paths: 32
+Infeasible 2-node combinations: 7
+## Start start solution procedure ##
