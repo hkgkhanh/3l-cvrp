@@ -1,0 +1,2 @@
+build\Debug\bin\Debug\3L-VehicleRoutingApplication.exe -i data\input\3l-cvrp\ -f E023-03g.json -o data\output\ -p data\i
+nput\3l-cvrp\parameters\BenchmarkParameters_AllConstraints.json
